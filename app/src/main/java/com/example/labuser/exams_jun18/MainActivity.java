@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private class GetPlacesTask extends AsyncTask<Void, Void, Place[]> {
 
         protected Place[] doInBackground(Void... voids) {
-            String articleJsonStr = null;
+            String placeJsonStr = null;
 
             // Get JSON from REST API
 
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     out.append(buffer, 0, rsz);
                 }
 
-                articleJsonStr = out.toString();
+                placeJsonStr = out.toString();
             } catch (IOException e) {
                 return null;
             } finally {
