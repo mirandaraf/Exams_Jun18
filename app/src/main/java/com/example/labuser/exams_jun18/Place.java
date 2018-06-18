@@ -5,7 +5,7 @@ public class Place {
     private String id;
     private String name;
     private String opening_hours;
-    private float rating;
+    private String  rating;
 
     public String getFormatted_address() {
         return formatted_address;
@@ -39,11 +39,11 @@ public class Place {
         this.opening_hours = opening_hours;
     }
 
-    public float getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public void setRating(float rating) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 }
