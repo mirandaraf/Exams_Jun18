@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             HttpURLConnection urlConnection = null;
 
             try {
-                final String baseUrl = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=pizza+%CE%B1%CE%B8%CE%B7%CE%BD%CE%B1&key=AIzaSyB-rraeRhMpfGK6gcxezqeKsW_gpH4NspE";
+                final String baseUrl = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=pizza+αθηνα&key=AIzaSyDqn_tui8R2cx7y_DAjOWu5kmJ6Q3Nk874";
 
                 // Get input stream
 

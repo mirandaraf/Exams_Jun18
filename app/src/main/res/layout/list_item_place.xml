@@ -19,15 +19,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:paddingBottom="5dp"
-            android:text="Έρχονται χιονοπέδιλα - φλαμίνγκο!"
-            android:textSize="18sp" />
-        <TextView
-            android:id="@+id/list_item_place_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:paddingBottom="5dp"
-            android:text="Έρχονται χιονοπέδιλα - φλαμίνγκο!"
             android:textSize="18sp" />
 
         <TextView
@@ -38,6 +29,16 @@
             android:paddingBottom="5dp"
             android:text="Έρχονται χιονοπέδιλα - φλαμίνγκο!"
             android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_item_place_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="5dp"
+            android:text="Έρχονται χιονοπέδιλα - φλαμίνγκο!"
+            android:textSize="18sp" />
+
         <TextView
             android:id="@+id/list_item_place_opening_hours"
             android:layout_width="match_parent"
